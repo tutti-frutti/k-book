@@ -1,20 +1,22 @@
 {
-  "name": "asd",
-  "version": "0.1.0",
-  "private": true,
-  "description": "asd",
-  "author": "asd",
-  "repository": {
-    "type": "git"
-  },
-  "devDependencies": {
-    "eslint": "1.5.1"
-  },
-  "scripts": {
-    "gosha": "make",
-    "test": "eslint js/"
-  },
-  "engines": {
-    "node": "^0.12.7"
-  }
+    "name": "asd",
+    "version": "0.1.0",
+    "private": true,
+    "description": "asd",
+    "author": "asd",
+    "repository": {
+        "type": "git"
+    },
+    "devDependencies": {
+        "eslint": "1.5.1"
+        "grunt-browser-sync": "2.2.0",
+        "grunt-contrib-watch": "1.0.0",
+    },
+    "scripts": {
+        "gosha": "make",
+        "test": "eslint js/"
+    },
+    "engines": {
+        "node": "^0.12.7"
+    }
 }
